@@ -1,0 +1,61 @@
+a {
+
+}
+
+a:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+a.link2:active {
+  color: red;
+  font-style: italic;
+}
+
+a.link3:visited {
+  color: yellow;
+}
+
+.my-input:focus {
+  color: green;
+  font-size: 20px;
+}
+
+nav {
+  background-color: darkblue;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+ul li {
+  margin-left: 10px;
+}
+
+ul li:first-child {
+  margin-left: 0;
+}
+
+ul li.currentPage {
+  background-color: #5D6578;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  color: red;
+  background-color: lightblue;
+}
+
+nav input {
+  outline: none;
+}
+
+nav input:focus {
+  border: 2px solid aquamarine;
+}
